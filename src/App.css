@@ -1,23 +1,27 @@
-.section__padding{
+.section__padding {
   padding: 4rem 6rem;
 }
 
-.flex__center{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+body{
+  background-color: #dadada;
 }
 
-.app__wrapper{
+.flex__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+}
+
+.app__wrapper {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: center;  
 
   min-height: 100vh;
 }
 
-.app__wrapper_info{
+.app__wrapper_info {
   flex: 1;
   width: 100%;
   display: flex;
@@ -26,7 +30,7 @@
   align-items: flex-start;
 }
 
-.app__wrapper__img{
+.app__wrapper__img {
   flex: 1;
   width: 100%;
   display: flex;
@@ -36,18 +40,102 @@
   margin-left: 2rem;
 }
 
-.app__wrapper__img img{
+.app__wrapper__img img {
   width: 80%;
 }
 
-@media screen and (max-width: 850px){
-  .section__padding{
-    padding: 4rem 4rem;
+.custom__button {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+  font-family: var(--font-base);
+  padding: 0.5rem 1.5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.4em;
+  line-height: 28px;
+  border-radius: 1px;
+}
+
+.p__opensans {
+  font-family: var(--font-alt);
+  color: var(--color-gray);
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.4em;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+.p__cormorant {
+  font-family: var(--font-base);
+  color: var(--color-gray);
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 29px;
+  letter-spacing: 0.04rem;
+  text-transform: capitalize;
+  font-feature-settings: "tnum" on, "lnum" on;
+}
+
+.sub__heading {
+  font-family: var(--font-alt);
+  color: var(--color-gray);
+}
+
+.headtext__cormorant {
+  font-family: var(--font-base);
+  color: var(--color-primary);
+  font-size: 64px;
+  line-height: 83.2px;
+  letter-spacing: 0.4em;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 2000px) {
+  .p__opensans {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  .p__cormorant,
+  .custom__button {
+    font-size: 37px;
+    line-height: 67px;
   }
 }
 
-@media screen and (max-width: 650px){
-  .section__padding{
+@media screen and (max-width: 850px) {
+  .section__padding {
+    padding: 4rem 4rem;
+  }
+  .headtext__cormorant {
+    font-size: 150px;
+    line-height: 210px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .section__padding {
     padding: 4rem 2rem;
+  }
+  .p__opensans {
+    font-size: 14px;
+  }
+  .p__cormorant {
+    font-size: 21px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .p__opensans {
+    font-size: 12px;
+  }
+  .headtext__cormorant {
+    font-size: 45px;
+    line-height: 70px;
+  }
+  .p__cormorant {
+    font-size: 19px;
   }
 }
