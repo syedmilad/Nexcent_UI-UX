@@ -15,7 +15,7 @@ const BasicForm = () => {
     console.log("formik==>",formik.values,formik.errors)
     return (
         <div>
-            <h1>Basic Form</h1>
+            <h3>Basic Form</h3>
             <form onSubmit={formik.handleSubmit} >
                 <input 
                     id="email"
