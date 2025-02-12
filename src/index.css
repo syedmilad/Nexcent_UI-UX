@@ -1,20 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 :root{
   --font-base: 'Cormorant Upright', serif;
-  --font-alt: 'Open Sans', sans-serif;
+  --font-alt: "Inter", serif;
 
-  --color-primary: "#28CB8B";
-  --color-secondary: "#263238";
-  --color-info: "#2194f3";
+  --color-primary: #4CAF4F;
+  --color-secondary: #263238;
+  --color-info: #2194f3;
 
-  --color-black: "#263238";
-  --color-d-gray: "#4D4D4D";
-  --color-gray: "#717171";
-  --color-l-gray: "#89939E";
-  --color-gray-blue: "#ABBED1";
-  --color-silver: "#F5F7FA";
-  --color-white: "#FFFFFF"
+  --color-black: #263238;
+  --color-d-gray: #4D4D4D;
+  --color-gray: #717171;
+  --color-l-gray: #89939E;
+  --color-gray-blue: #ABBED1;
+  --color-silver: #F5F7FA;
+  --color-white: #FFFFFF
 }
 
 *{

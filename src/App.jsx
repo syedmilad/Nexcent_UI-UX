@@ -1,9 +1,16 @@
 import "./App.css";
+import { Navbar } from "./components";
+import {Footer, Marketing, Member, OurClient, Slider} from "./container"
 
 function App() {
   return (
     <div>
-      hello brother.
+      <Navbar/>
+      <Slider/>
+      <OurClient/>
+      <Member/>
+      <Marketing/>
+      <Footer/>
     </div>
   )
 }

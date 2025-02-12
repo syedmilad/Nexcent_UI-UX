@@ -43,16 +43,20 @@
 .custom__button {
   background-color: var(--color-primary);
   color: var(--color-white);
-  font-family: var(--font-base);
+  font-family: var(--font-alt);
   padding: 0.5rem 1.5rem;
   border: none;
   outline: none;
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
-  letter-spacing: 0.4em;
+  letter-spacing: 0.04em;
   line-height: 28px;
-  border-radius: 1px;
+  border-radius: 5px;
+}
+
+.no-underline {
+  text-decoration: none;
 }
 
 .p__opensans {
@@ -60,7 +64,7 @@
   color: var(--color-gray);
   font-size: 16px;
   line-height: 28px;
-  letter-spacing: 0.4em;
+  letter-spacing: 0.04em;
   font-weight: normal;
   text-transform: capitalize;
 }
