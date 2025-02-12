@@ -1,5 +1,4 @@
 .app__navbar{
-    border: 1px solid black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -7,6 +6,7 @@
     width: 100%;
 
     padding: 1rem 2rem;
+    background-color: #F5F7FA;
 }
 
 .app__navbar-logo{
@@ -26,6 +26,9 @@
 }
 .app__navbar-link{
     margin: 0 1rem;
+}
+.app__navbar-btns button{
+    margin: 0 0.5rem;
 }
 
 @media screen and (max-width: 1150px) {
