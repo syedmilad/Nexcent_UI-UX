@@ -1,0 +1,13 @@
+.app__ourclients-images_container_main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+.app__ourclients-images_container{
+    margin: 0 0.5rem;
+    min-width: 160px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

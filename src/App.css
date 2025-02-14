@@ -17,7 +17,7 @@
   min-height: 100vh;
 }
 
-.app__wrapper_info {
+.app__wrapper__info {
   flex: 1;
   width: 100%;
   display: flex;
@@ -69,11 +69,11 @@
   text-transform: capitalize;
 }
 .p__cormorant {
-  font-family: var(--font-base);
+  font-family: var(--font-alt);
   color: var(--color-gray);
   font-weight: 700;
-  font-size: 23px;
-  line-height: 29px;
+  font-size: 36px;
+  line-height: 44px;
   letter-spacing: 0.04rem;
   text-transform: capitalize;
   font-feature-settings: "tnum" on, "lnum" on;
@@ -85,11 +85,12 @@
 }
 
 .headtext__cormorant {
-  font-family: var(--font-base);
+  font-family: var(--font-alt);
   color: var(--color-primary);
   font-size: 64px;
   line-height: 83.2px;
-  letter-spacing: 0.4em;
+  letter-spacing: 0.04em;
+  font-weight: 700;
   text-transform: capitalize;
 }
 
