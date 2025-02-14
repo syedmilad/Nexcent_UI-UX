@@ -1,0 +1,27 @@
+.app__customer{
+    background-color: #F5F7FA;
+}
+
+.app__customer-clients{
+    display: flex;
+    flex: 1;
+    width: 100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 2rem;
+}
+.app__client-image{
+    max-width:60px;
+    min-width: 65px
+}
+.app__customer-cleint_details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.app__customer-cleint_details p{
+    color: #4CAF4F;
+}

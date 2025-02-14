@@ -15,5 +15,5 @@ export {
     OurClient,
     Slider,
     Comunity,
-    Spending
+    Spending,
 }

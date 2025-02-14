@@ -14,6 +14,8 @@ import event from "../../assets/event.svg";
 import payments from "../../assets/payments.svg"; 
 import clubs  from "../../assets/clubs.svg"; 
 import member from "../../assets/member.svg"; 
+import marketing from "../../assets/marketing.svg"; 
+import tesla from "../../assets/tesla.svg"; 
 
 export default {
     Logo,
@@ -32,4 +34,6 @@ export default {
     event,
     clubs,
     payments,
+    marketing,
+    tesla
 }
