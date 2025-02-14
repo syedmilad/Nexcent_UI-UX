@@ -27,7 +27,7 @@ const Navbar = () => {
         <div className='app__navbar-smallscreen'>
           <GiHamburgerMenu color='#000' fontSize={30} onClick={()=> setToggleMenu(true)} />
            { toggleMenu &&  <div className='app__navbar-smallscreen_overlay flex__center'>
-                <MdOutlineRestaurantMenu color='#000' fontSize={30} onClick={()=> setToggleMenu(false)} />
+                <MdOutlineRestaurantMenu className='overlay__close' color='#000' fontSize={30} onClick={()=> setToggleMenu(false)} />
                 <ul className='app__navbar-smallscreen_links'>
                   <li className='p__opensans'><a  style={{color: '#18191F'}} href="#">Home</a></li>
                   <li className='p__opensans'><a  style={{color: '#18191F'}} href="#">Services</a></li>

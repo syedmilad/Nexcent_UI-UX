@@ -47,7 +47,23 @@
     flex-direction: column;
     z-index: 5;
 }
+.app__navbar-smallscreen_overlay .overlay__close{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    color: var(--color-primary);
+}
 .app__navbar-smallscreen_links {
+    display: flex;
+    flex-direction: column;
+}
+.app__navbar-smallscreen_links li{
+    margin: 1rem;
+    text-align: center;
+}
+.app__navbar-smallscreen_links a{
+    text-decoration: none;
 }
 .app__navbar-link{
     margin: 0 1rem;
