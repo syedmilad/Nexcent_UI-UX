@@ -4,6 +4,7 @@ import Marketing from "./Marketing/Marketing"
 import Member from "./Member/Member"
 import OurClient from "./OurClient/OurClient"
 import Slider from "./Slider/Slider"
+import Comunity from "./Comunity/Comunity"
 
 
 export {
@@ -12,5 +13,6 @@ export {
     Marketing,
     Member,
     OurClient,
-    Slider
+    Slider,
+    Comunity
 }
