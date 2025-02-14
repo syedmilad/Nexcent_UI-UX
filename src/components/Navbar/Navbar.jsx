@@ -12,38 +12,30 @@ const Navbar = () => {
         <div className='app__navbar-logo'>
           <img src={images.Logo} alt="logo" />
         </div>
-        <div className='app__navbar-links'>
-              {data.navLinks.map((item, index) => (
-                <Link
-                  key={index}
-                  to={{}} // Replace `item.path` with the actual path property in your data
-                  className='p__opensans app__navbar-link no-underline'
-                  style={{ color: "#18191F" }}
-              >
-                {item.label}
-              </Link>
-              ))}
-        </div>
+        <ul className='app__navbar-links'>
+          <li className='p__opensans'><a  style={{color: '#18191F'}} href="#">Home</a></li>
+          <li className='p__opensans'><a  style={{color: '#18191F'}} href="#">Services</a></li>
+          <li className='p__opensans'><a  style={{color: '#18191F'}} href="#">Features</a></li>
+          <li className='p__opensans'><a  style={{color: '#18191F'}} href="#">Product</a></li>
+          <li className='p__opensans'><a  style={{color: '#18191F'}} href="#">Testomonial</a></li>
+          <li className='p__opensans'><a  style={{color: '#18191F'}} href="#">FAQ</a></li>
+        </ul>
         <div className='app__navbar-btns'>
           <button className='custom__button' style={{backgroundColor: "white", color:"#4CAF4F"}} >Login</button>
           <button className='custom__button'>Sign up</button>
         </div>
         <div className='app__navbar-smallscreen'>
           <GiHamburgerMenu color='#000' fontSize={30} onClick={()=> setToggleMenu(true)} />
-            {toggleMenu && <div className='app__navbar-smallscreen_overlay flex__center'>
-              <MdOutlineRestaurantMenu color='#000' fontSize={30} onClick={()=> setToggleMenu(false)} />
-              <div className='app__navbar-smallscreen_links'>
-                {data.navLinks.map((item, index) => (
-                  <Link
-                    key={index}
-                    to={{}} // Replace `item.path` with the actual path property in your data
-                    className='p__opensans app__navbar-link no-underline'
-                    style={{ color: "#18191F" }}
-                >
-                  {item.label}
-                </Link>
-                ))}
-              </div>
+           { toggleMenu &&  <div className='app__navbar-smallscreen_overlay flex__center'>
+                <MdOutlineRestaurantMenu color='#000' fontSize={30} onClick={()=> setToggleMenu(false)} />
+                <ul className='app__navbar-smallscreen_links'>
+                  <li className='p__opensans'><a  style={{color: '#18191F'}} href="#">Home</a></li>
+                  <li className='p__opensans'><a  style={{color: '#18191F'}} href="#">Services</a></li>
+                  <li className='p__opensans'><a  style={{color: '#18191F'}} href="#">Features</a></li>
+                  <li className='p__opensans'><a  style={{color: '#18191F'}} href="#">Product</a></li>
+                  <li className='p__opensans'><a  style={{color: '#18191F'}} href="#">Testomonial</a></li>
+                  <li className='p__opensans'><a  style={{color: '#18191F'}} href="#">FAQ</a></li>
+                </ul>
             </div>}
         </div>
     </div>
