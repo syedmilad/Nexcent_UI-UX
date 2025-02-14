@@ -5,7 +5,7 @@ import Member from "./Member/Member"
 import OurClient from "./OurClient/OurClient"
 import Slider from "./Slider/Slider"
 import Comunity from "./Comunity/Comunity"
-
+import Spending from "./Spending/Spending"
 
 export {
     Customer,
@@ -14,5 +14,6 @@ export {
     Member,
     OurClient,
     Slider,
-    Comunity
+    Comunity,
+    Spending
 }

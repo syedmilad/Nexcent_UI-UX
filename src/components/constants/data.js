@@ -30,4 +30,27 @@ const memberShip = [
   },
 ];
 
-export default { navLinks,memberShip };
+const memberDetails = [
+  {
+    imageUrl: images.member,
+    number: "2,245,341",
+    subTitle: "Members"
+  }, 
+  {
+    imageUrl: images.event,
+    number: "828,867",
+    subTitle: "Event Bookings "
+  },
+  {
+    imageUrl: images.clubs,
+    number: "46,328",
+    subTitle: "Clubs"
+  },
+  {
+    imageUrl: images.payments,
+    number: "1,926,436",
+    subTitle: "Payments"
+  },
+]
+
+export default { navLinks,memberShip ,memberDetails};

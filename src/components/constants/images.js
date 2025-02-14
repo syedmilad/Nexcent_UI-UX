@@ -8,7 +8,12 @@ import client6 from "../../assets/company6.svg";
 import client7 from "../../assets/company7.svg";
 import person1 from "../../assets/person1.svg";
 import person2 from "../../assets/person2.svg";
-import person3 from "../../assets/person3.svg";
+import person3 from "../../assets/person3.svg"; 
+import spending from "../../assets/spending.svg"; 
+import event from "../../assets/event.svg"; 
+import payments from "../../assets/payments.svg"; 
+import clubs  from "../../assets/clubs.svg"; 
+import member from "../../assets/member.svg"; 
 
 export default {
     Logo,
@@ -21,5 +26,10 @@ export default {
     client7,
     person1,
     person2,
-    person3
+    person3,
+    spending,
+    member,
+    event,
+    clubs,
+    payments,
 }

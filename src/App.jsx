@@ -1,6 +1,6 @@
 import "./App.css";
 import { Navbar } from "./components";
-import {Comunity, Footer, Marketing, Member, OurClient, Slider} from "./container"
+import {Comunity, Footer, Marketing, Member, OurClient, Slider, Spending} from "./container"
 
 function App() {
   return (
@@ -9,6 +9,7 @@ function App() {
       <Slider/>
       <OurClient/>
       <Comunity />
+      <Spending />
       <Member/>
       <Marketing/>
       <Footer/>
