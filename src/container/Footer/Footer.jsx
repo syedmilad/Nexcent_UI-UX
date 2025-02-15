@@ -2,6 +2,11 @@ import React from "react";
 import "./Footer.css"
 import {images} from "../../components/constants"
 
+const fontStyle = {
+  color: "#F5F7FA",
+  fontSize: "14px"
+}
+
 const Footer = () => {
   return (
     <div className="app__footer flex__center">
@@ -32,23 +37,23 @@ const Footer = () => {
             </div>
             <div className="app__footer-gallery">
               <div className="left">
-                  <h1 className="p__cormorant" style={{color: "#F5F7FA"}}>Company</h1>
-                  <p className="p__opensans" style={{color: "#F5F7FA"}}>About Us</p>
-                  <p className="p__opensans" style={{color: "#F5F7FA"}}>Blog</p>
-                  <p className="p__opensans" style={{color: "#F5F7FA"}}>Contact us</p>
-                  <p className="p__opensans" style={{color: "#F5F7FA"}}>Pricing</p>
-                  <p className="p__opensans" style={{color: "#F5F7FA"}}>Testomonial</p>
+                  <h1 className="p__cormorant" style={{color: "#F5F7FA", fontSize: "25px"}}>Company</h1>
+                  <p className="p__opensans" style={fontStyle}>About Us</p>
+                  <p className="p__opensans" style={fontStyle}>Blog</p>
+                  <p className="p__opensans" style={fontStyle}>Contact us</p>
+                  <p className="p__opensans" style={fontStyle}>Pricing</p>
+                  <p className="p__opensans" style={fontStyle}>Testomonial</p>
               </div>
               <div className="center">
-              <h1 className="p__cormorant" style={{color: "#F5F7FA"}}>Support</h1>
-                  <p className="p__opensans" style={{color: "#F5F7FA"}}>Help center</p>
-                  <p className="p__opensans" style={{color: "#F5F7FA"}}>Terms of service</p>
-                  <p className="p__opensans" style={{color: "#F5F7FA"}}>Legal</p>
-                  <p className="p__opensans" style={{color: "#F5F7FA"}}>Privacy policy</p>
-                  <p className="p__opensans" style={{color: "#F5F7FA"}}>Status</p>
+              <h1 className="p__cormorant" style={{color: "#F5F7FA",fontSize: "25px"}}>Support</h1>
+                  <p className="p__opensans" style={fontStyle}>Help center</p>
+                  <p className="p__opensans" style={fontStyle}>Terms of service</p>
+                  <p className="p__opensans" style={fontStyle}>Legal</p>
+                  <p className="p__opensans" style={fontStyle}>Privacy policy</p>
+                  <p className="p__opensans" style={fontStyle}>Status</p>
               </div>
               <div className="right">
-              <h1 className="p__cormorant" style={{color: "#F5F7FA"}}>Stay up to date</h1>
+              <h1 className="p__cormorant" style={{color: "#F5F7FA",fontSize: "25px"}}>Stay up to date</h1>
                 <input type="text" placeholder="Your email address" />
               </div>
             </div>
