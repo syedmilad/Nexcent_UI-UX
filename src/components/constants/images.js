@@ -16,6 +16,9 @@ import clubs  from "../../assets/clubs.svg";
 import member from "../../assets/member.svg"; 
 import marketing from "../../assets/marketing.svg"; 
 import tesla from "../../assets/tesla.svg"; 
+import read1 from "../../assets/read1.svg"; 
+import read2 from "../../assets/read2.svg"; 
+import read3 from "../../assets/read3.svg"; 
 
 export default {
     Logo,
@@ -35,5 +38,8 @@ export default {
     clubs,
     payments,
     marketing,
-    tesla
+    tesla,
+    read1,
+    read2,
+    read3
 }

@@ -1,6 +1,6 @@
 import "./App.css";
 import { Navbar } from "./components";
-import {Comunity, Customer, Footer, Marketing, Member, OurClient, Slider, Spending} from "./container"
+import {Comunity, Customer, Footer, Marketing, Member, OurClient, Readmore, Slider, Spending} from "./container"
 
 function App() {
   return (
@@ -13,6 +13,7 @@ function App() {
       <Member/>
       <Marketing/>
       <Customer/>
+      <Readmore/>
       <Footer/>
     </div>
   )

@@ -6,6 +6,7 @@ import OurClient from "./OurClient/OurClient"
 import Slider from "./Slider/Slider"
 import Comunity from "./Comunity/Comunity"
 import Spending from "./Spending/Spending"
+import Readmore from "./Readmore/Readmore.jsx"
 
 export {
     Customer,
@@ -16,4 +17,5 @@ export {
     Slider,
     Comunity,
     Spending,
+    Readmore
 }
