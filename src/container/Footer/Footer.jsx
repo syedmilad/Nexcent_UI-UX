@@ -1,10 +1,11 @@
 import React from "react";
 import "./Footer.css"
+import {images} from "../../components/constants"
 
 const Footer = () => {
   return (
-    <div className="app__footer flex__center section__padding">
-      <div className="app__footer-heading">
+    <div className="app__footer flex__center">
+      <div className="app__footer-heading  section__padding">
         <h1 style={{color: "#263238"}} className="headtext__cormorant">
           Pellentesque suscipit fringilla libero eu.
         </h1>
@@ -17,7 +18,42 @@ const Footer = () => {
           </span>
         </button>
       </div>
-      <div className="app__footer-content"></div>
+      <div className="app__footer-content">
+        <div className="app__footer-content_container section__padding">
+            <div className="app__footer-logo">
+              <img src={images.lightLogo} alt="" />
+              <p className="p__opensans" style={{color: "#F5F7FA", fontSize: "14px", marginTop: "1rem"}}>
+              Copyright © 2020 Nexcent ltd.
+              </p>
+              <p className="p__opensans" style={{color: "#F5F7FA", fontSize: "14px",marginBottom: "1rem"}}>
+              All rights reserved
+              </p>
+              <img src={images.social} alt="" />
+            </div>
+            <div className="app__footer-gallery">
+              <div className="left">
+                  <h1 className="p__cormorant" style={{color: "#F5F7FA"}}>Company</h1>
+                  <p className="p__opensans" style={{color: "#F5F7FA"}}>About Us</p>
+                  <p className="p__opensans" style={{color: "#F5F7FA"}}>Blog</p>
+                  <p className="p__opensans" style={{color: "#F5F7FA"}}>Contact us</p>
+                  <p className="p__opensans" style={{color: "#F5F7FA"}}>Pricing</p>
+                  <p className="p__opensans" style={{color: "#F5F7FA"}}>Testomonial</p>
+              </div>
+              <div className="center">
+              <h1 className="p__cormorant" style={{color: "#F5F7FA"}}>Support</h1>
+                  <p className="p__opensans" style={{color: "#F5F7FA"}}>Help center</p>
+                  <p className="p__opensans" style={{color: "#F5F7FA"}}>Terms of service</p>
+                  <p className="p__opensans" style={{color: "#F5F7FA"}}>Legal</p>
+                  <p className="p__opensans" style={{color: "#F5F7FA"}}>Privacy policy</p>
+                  <p className="p__opensans" style={{color: "#F5F7FA"}}>Status</p>
+              </div>
+              <div className="right">
+              <h1 className="p__cormorant" style={{color: "#F5F7FA"}}>Stay up to date</h1>
+                <input type="text" placeholder="Your email address" />
+              </div>
+            </div>
+        </div>
+      </div>
     </div>
   );
 };

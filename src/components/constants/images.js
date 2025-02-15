@@ -1,4 +1,5 @@
 import Logo from "../../assets/Logo.svg"
+import lightLogo from "../../assets/lightLogo.svg"
 import illustration from "../../assets/illustration.svg"
 import client1 from "../../assets/company1.svg";
 import client2 from "../../assets/company2.svg";
@@ -19,6 +20,7 @@ import tesla from "../../assets/tesla.svg";
 import read1 from "../../assets/read1.svg"; 
 import read2 from "../../assets/read2.svg"; 
 import read3 from "../../assets/read3.svg"; 
+import social from "../../assets/social.png"; 
 
 export default {
     Logo,
@@ -41,5 +43,7 @@ export default {
     tesla,
     read1,
     read2,
-    read3
+    read3,
+    social,
+    lightLogo
 }
