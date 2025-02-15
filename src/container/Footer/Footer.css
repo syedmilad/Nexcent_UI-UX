@@ -1,0 +1,17 @@
+.app__footer{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.app__footer-heading{
+    max-width: 700px;
+    
+}
+.demo__btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.arrow-left{
+    margin-left: 1rem !important;
+}
