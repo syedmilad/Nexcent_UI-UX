@@ -1,6 +1,6 @@
 import Logo from "../../assets/Logo.svg"
 import lightLogo from "../../assets/lightLogo.svg"
-import illustration from "../../assets/illustration.svg"
+import illustration from "../../assets/image.png"
 import client1 from "../../assets/company1.svg";
 import client2 from "../../assets/company2.svg";
 import client4 from "../../assets/company4.svg";
